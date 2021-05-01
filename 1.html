@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strawberry Icecream</title>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+    </head>
+
+    <body id = "page1">
+
+        <div id = "navbar1">
+            <div id = "nav1">
+                <a href = "1.html">🍓</a>
+            </div>
+            <div id = "nav2">
+                <a href = "2.html">🍓</a>
+            </div>
+            <div id = "nav3">
+                <a href = "3.html">🍓</a>
+            </div>
+        </div>
+
+
+        
+        <div class = "drawing">
+
+            <div id = "i1">
+                <img src = "assets/img/i1.png"/>
+            </div>
+            <div id = "i2">
+                <img src = "assets/img/i2.png"/>
+            </div>
+            <div id = "i3">
+                <img src = "assets/img/i3.png"/>
+            </div>
+            <div id = "i4">
+                <img src = "assets/img/i4.png"/>
+            </div>
+            <div id = "i5">
+                <img src = "assets/img/i5.png"/>
+            </div>
+
+        </div>
+
+        
+
+        <div class = "content">
+
+            <div id = "title">
+                <p>Strawberry Icecream</p>
+            </div>
+            <span id="typed"></span>
+          
+            <div class = "ingredients">
+                <div class = "ingredients-title">
+                    <p>Ingredients</p>
+                </div>
+                <div class = "ingredients-text">
+                <p>⭐ Heavy whipping cream: 1 cup</p>
+                <p>⭐ Half and half: 1/2 cup</p>
+                <p>⭐ Strawberries: 1 1/2 cups</p>
+                <p>⭐ Honey: 2 tbsps</p>
+                <p>⭐ Sugar: 1/2 cup</p>
+                <p>⭐ Vanilla extract: 1 tsp</p>
+                <p>⭐ Lemon juice: 1 tsp</p>
+                </div>
+            </div>
+
+            <div class = "steps">
+                <div class = "steps-title">
+                    <p>Instructions</p>
+                </div>
+                <div class = "steps-text">
+                <p>🌟 1. In a large bowl, mix strawberries, honey, sugar, and lemon juice. Allow to sit 15-20 minutes, or until the strawberries have released their juices.</p>
+                <p>🌟 2. Mash the mixture with a potato masher, fork, or pastry cutter until there are no longer any large strawberry pieces (if you prefer a smooth ice cream, use a blender or food processor instead).</p>
+                <p>🌟 3. To the strawberries, mix heavy cream, half and half, and vanilla extract. Stir just until combined.</p>
+                <p>🌟 4. Pour the mixture into your ice cream maker, and follow your manufacturer's instructions (about 15-20 minutes to churn).</p>
+                <p>🌟 5. You can eat the ice cream soft-serve, or freeze it in an airtight container for 3-4 hours to thicken it up slightly. For best results, allow the ice cream to sit at room temperature for about 5-10 minutes to soften before serving.</p>
+                </div>
+            </div>
+
+            <div class = "nutrition">
+                <div class = "nutrition-title">
+                    <p>Nutrition</p>
+                </div>
+                <div class = "nutrition-text">
+                <p>Calories: 222kcal | Carbohydrates: 21g | Protein: 2g | Fat: 15g | Saturated Fat: 10g | Cholesterol: 56mg | Sodium: 27mg | Potassium: 94mg | Fiber: 1g | Sugar: 19g | Vitamin A: 619IU | Vitamin C: 14mg | Calcium: 53mg | Iron: 1mg</p>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+        <div class = "photo">
+                <img src = "assets/img/icecream.jpg"/>
+        </div>
+
+        <script>
+            ScrollReveal().reveal('.ingredients-title');
+            ScrollReveal().reveal('.steps-title');
+            ScrollReveal().reveal('.nutrition-title');
+            ScrollReveal().reveal('.ingredients-text', {delay: 150});
+            ScrollReveal().reveal('.steps-text', {delay:150});
+            ScrollReveal().reveal('.nutrition-text', {delay:150});   
+        </script>
+        <script>
+            var typed = new Typed('#typed', {
+                 stringsElement: '#title',
+                 typeSpeed: 50,
+            });
+        </script>
+
+    </body>
+
+</html>

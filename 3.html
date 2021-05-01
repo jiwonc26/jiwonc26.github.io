@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <title>Strawberry Pie</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id = "page3">
+
+    <div id = "navbar3">
+        <div id = "nav1">
+            <a href = "1.html">🍓</a>
+        </div>
+        <div id = "nav2">
+            <a href = "2.html">🍓</a>
+        </div>
+        <div id = "nav3">
+            <a href = "3.html">🍓</a>
+        </div>
+    </div>
+
+
+    
+    <div class = "drawing">
+
+        <div id = "p1">
+            <img src = "assets/img/p1.png"/>
+        </div>
+        <div id = "p2">
+            <img src = "assets/img/p2.png"/>
+        </div>
+        <div id = "p3">
+            <img src = "assets/img/p3.png"/>
+        </div>
+        <div id = "p4">
+            <img src = "assets/img/p4.png"/>
+        </div>
+        <div id = "p5">
+            <img src = "assets/img/p5.png"/>
+        </div>
+
+    </div>
+
+    
+
+    <div class = "content">
+
+        <div id = "title">
+            <p>Strawberry Pie</p>
+        </div>
+        <span id="typed"></span>
+
+        <div class = "ingredients">
+            <div class = "ingredients-title">
+                <p>Ingredients</p>
+            </div>
+            <div class = "ingredients-text">
+            <p>⭐ Pie Crust: 1 sheet</p>
+            <p>⭐ Sugar: 3/4 cup</p>
+            <p>⭐ Constarch: 2 tbsps</p>
+            <p>⭐ Water: 1 cup</p>
+            <p>⭐ Strawberry gelatin: 1 package</p>
+            <p>⭐ Sliced strawberries: 4 cups</p>
+            </div>
+        </div>
+
+        <div class = "steps">
+            <div class = "steps-title">
+                <p>Instructions</p>
+            </div>
+            <div class = "steps-text">
+            <p>🌟 1. Preheat oven to 450°. Unroll crust into a 9-inch pie plate. Trim edge.</p>
+            <p>🌟 2. Line unpricked crust with a double thickness of heavy-duty foil or parchment. Bake 8 minutes. Remove foil.</p>
+            <p>🌟 3. Bake 5 minutes longer. Cool on a wire rack.</p>
+            <p>🌟 4. In a small saucepan, combine the sugar, cornstarch and water until smooth.</p>
+            <p>🌟 5. Bring to a boil; cook and stir until thickened about 2 minutes.</p>
+            <p>🌟 6. Remove from the heat; stir in gelatin until dissolved. Refrigerate until slightly cooled, 15-20 minutes.</p>
+            <p>🌟 7. Meanwhile, arrange strawberries in the crust. Pour gelatin mixture over berries. Refrigerate until set.</p>
+            </div>
+        </div>
+
+        <div class = "nutrition">
+            <div class = "nutrition-title">
+                <p>Nutrition</p>
+            </div>
+            <div class = "nutrition-text">
+            <p>Calories: 264kcal | Carbohydrates: 49g | Protein: 2g | Fat: 7g | Saturated Fat: 3g | Cholesterol: 5mg | Sodium: 125mg | Protein: 2mg | Fiber: 2g | Sugar: 32g</p>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <div class = "photo">
+            <img src = "assets/img/pie.jpg"/>
+    </div>
+
+    <script>
+        ScrollReveal().reveal('.ingredients-title');
+        ScrollReveal().reveal('.steps-title');
+        ScrollReveal().reveal('.nutrition-title');
+        ScrollReveal().reveal('.ingredients-text', {delay: 150});
+        ScrollReveal().reveal('.steps-text', {delay:150});
+        ScrollReveal().reveal('.nutrition-text', {delay:150});
+    </script>
+    <script>
+        var typed = new Typed('#typed', {
+             stringsElement: '#title',
+             typeSpeed: 50,
+        });
+    </script>
+
+
+
+
+
+
+</body>

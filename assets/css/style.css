@@ -1,0 +1,175 @@
+body {margin: 0;}
+
+#page1 {
+    background-image: linear-gradient(to bottom, #ffdbdb, #ffffff, #ffffff, #ffffff);
+    font-family: "Roboto Slab"
+}
+#page2 {
+    background-image: linear-gradient(to bottom, #ffc8c8, #ffffff, #ffffff, #ffffff);
+    font-family: "Roboto Slab"
+}
+#page3 {
+    background-image: linear-gradient(to bottom, #ffb2b2, #ffffff, #ffffff, #ffffff);
+    font-family: "Roboto Slab"
+}
+
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+#navbar1 a{
+    text-decoration: none;
+}
+
+#nav1, #nav2, #nav3 {
+    font-size: 20px;
+}
+#navbar1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffdbdb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navbar2 a{
+    text-decoration: none;
+}
+
+#nav1, #nav2, #nav3 {
+    font-size: 20px;
+}
+#navbar2 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffc8c8;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navbar3 a{
+    text-decoration: none;
+}
+
+#nav1, #nav2, #nav3 {
+    font-size: 20px;
+}
+#navbar3 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffb2b2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#nav1, #nav2, #nav3 {
+    transition: all 0.35s ease-in-out 0s;
+}
+#nav1:hover, #nav2:hover, #nav3:hover {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.drawing {
+    margin-left: 100px;
+    padding-top: 230px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.drawing img{
+    width: 50%;
+    height:auto;
+    transition: transform 0.2s;
+}
+.drawing img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+
+.content {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+#typed {
+    display: inline;
+    font-weight: 700;
+    font-size: 36px;
+}
+#title {
+    font-weight: 700;
+    font-size: 36px;
+}
+.ingredients-title {
+    font-weight: 600;
+    font-size: 30px;
+}
+.steps-title {
+    font-weight: 600;
+    font-size: 30px;
+}
+.nutrition-title {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.ingredients {
+    margin-top: 100px;
+}
+.steps {
+    margin-top: 100px;
+}
+.nutrition {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+
+
+.photo {
+    display:flex;
+}
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#strawberry1 img, #strawberry2 img, #strawberry3 img {
+    width: 50%;
+    height: auto;
+    transition: all 0.35s ease-in-out 0s;
+}
+#strawberry1 img:hover, #strawberry2 img:hover, #strawberry3 img:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 0.35s ease-in-out 0s;
+}
